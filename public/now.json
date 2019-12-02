@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "alias": "djbradleyii-social-dining-app",
     "name": "social-dining-app",
     "routes": [
         { "handle": "filesystem" },

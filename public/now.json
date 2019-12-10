@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "social-dining-app",
+    "name": "social-dining-app-static",
     "routes": [
         { "handle": "filesystem" },
         { "src": "/.*", "dest": "/index.html" }

@@ -58,5 +58,41 @@ export default [
 		description : "In felis mi, efficitur at porttitor ac, egestas quis quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu nunc nec lorem malesuada ornare. Maecenas malesuada pellentesque risus, et egestas eros euismod eu.",
 		singlesOnly : "No",
 		attendees : 20
+	},
+	{
+		id : 6,
+		organizer : "Dewayne",
+		purpose : "Social",
+		restaurant : "Republique",
+		address : "624 S La Brea Ave Hancock Park",
+		date : "07/04/2020",
+		time : "06:45PM",
+		description : "French eatery with some of the best, fresh-baked pastries in Los Angeles! Join us for some delicious food, ice breakers and much more.",
+		singlesOnly : "No",
+		attendees : 13
+	},
+	{
+		id : 7,
+		organizer : "Venetta",
+		purpose : "Networking",
+		restaurant : "Running Goose",
+		address : "1620 N Cahuenga Blvd Los Angeles, CA 90028",
+		date : "10/04/2020",
+		time : "06:45PM",
+		description : "Inspired by the widely undiscovered specialties of Central America and the Yucatan, the Goose is a celebration of southern California's hidden pockets of cultural influence.",
+		singlesOnly : "No",
+		attendees : 10
+	},
+	{
+		id : 8,
+		organizer : "Reynalda",
+		purpose : "Networking",
+		restaurant : "JOEY DTLA",
+		address : "700 W 7th St, Los Angeles, CA 90017",
+		date : "02/04/2020",
+		time : "06:45PM",
+		description : "Genuine Warmth & Care are always on the table",
+		singlesOnly : "No",
+		attendees : 6
 	}
 ]

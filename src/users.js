@@ -23,7 +23,7 @@ export default [
 		occupation : "Lawyer",
 		status : "Single",
 		summary : "Vivamus vestibulum justo vel ultrices vehicula. Vivamus vitae maximus justo. Sed eu leo eu sem auctor suscipit et non ex.",
-		events : []
+		events : [8]
 	},
 	{
 		id : 3,
@@ -49,7 +49,7 @@ export default [
 		occupation : "Owner",
 		status : "Single",
 		summary : "Donec id tellus nunc. Aliquam erat volutpat. Nam a elit maximus, cursus metus et, sollicitudin augue.",
-		events : []
+		events : [7]
 	},
 	{
 		id : 5,
@@ -75,6 +75,6 @@ export default [
 		occupation : "Chef",
 		status : "Married",
 		summary : "Suspendisse tempor eget purus vel feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo sapien eget dui interdum venenatis.",
-		events : [1]
+		events : [1, 6]
 	}
 ]

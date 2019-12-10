@@ -6,12 +6,6 @@ form{
     border-radius: 4px;
 }
 
-fieldset{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-}
-
 input[type="radio"]{
     margin: 0;
     display: inline-block;

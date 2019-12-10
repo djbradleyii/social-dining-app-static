@@ -17,3 +17,19 @@ textarea{
     display: inline-block;
     width: 25%;
 }
+
+@media only screen and (min-width: 500px) {
+    #add-event-form{
+        width: 500px;
+        padding: 25px;
+        font-size: 30px;
+    }
+    #add-event-form input{
+        height: 35px;
+    }
+    #add-event-form button{
+        font-size: 20px;
+        width: 200px;
+        height: 35px;
+    }
+  }

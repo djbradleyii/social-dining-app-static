@@ -11,8 +11,16 @@
 
 @media only screen and (min-width: 500px) {
     #signin-form{
-        width: 300px;
+        width: 500px;
         padding: 25px;
-        font-size: 16px;
+        font-size: 30px;
+    }
+    #signin-form input{
+        height: 35px;
+    }
+    #signin-form button{
+        font-size: 20px;
+        width: 200px;
+        height: 35px;
     }
   }

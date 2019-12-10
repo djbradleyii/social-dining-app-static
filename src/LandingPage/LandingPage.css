@@ -1,0 +1,34 @@
+.landing-page{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+p{
+    font-size: .7em;
+    padding: 2px;
+    margin-bottom: 5px;
+    line-height: 1.7em;
+}
+
+@media only screen and (min-width: 500px) {
+    .landing-page{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+    .landing-page{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .landing-page{
+        width: 60%;
+        margin: 0 auto;
+    }
+}

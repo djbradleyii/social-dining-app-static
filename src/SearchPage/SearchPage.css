@@ -1,0 +1,44 @@
+#search-form{
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.search-type-label{
+    display: block;
+}
+
+#event-date-search:disabled{
+    background-color: white;
+    border: none;
+}
+
+#search{
+    width: 100%;
+}
+
+#search-form input[type="radio"]{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#search-form > div{
+    margin-bottom: 5px;
+}
+
+.events-list{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+.events-list li{
+    list-style-type: none;
+    margin-bottom: 6px;
+}
+
+.events-list h2{
+    font-size: 16px;
+}

@@ -1,6 +1,7 @@
 export default [
 	{
 		id : 1,
+		title: "Happy Hour Fun",
 		organizer : "Dewayne",
 		purpose : "Networking",
 		restaurant : "Water Grill",
@@ -13,6 +14,7 @@ export default [
 	},
 	{
 		id : 2,
+		title: "Single Mingle",
 		organizer : "David",
 		purpose : "Singles Night",
 		restaurant : "Sonora Town",
@@ -25,6 +27,7 @@ export default [
 	},
 	{
 		id : 3,
+		title: "Social Ramen",
 		organizer : "Rick",
 		purpose : "Social",
 		restaurant : "Daikokuya",
@@ -37,6 +40,7 @@ export default [
 	},
 	{
 		id : 4,
+		title: "Board Game Bananza",
 		organizer : "David",
 		purpose : "Game Night",
 		restaurant : "Button Mash",
@@ -49,6 +53,7 @@ export default [
 	},
 	{
 		id : 5,
+		title: "Tapas Anyone?",
 		organizer : "Rick",
 		purpose : "Social",
 		restaurant : "Scum and Villainy Cantina",
@@ -61,6 +66,7 @@ export default [
 	},
 	{
 		id : 6,
+		title: "French Cuisine with Wine",
 		organizer : "Dewayne",
 		purpose : "Social",
 		restaurant : "Republique",
@@ -73,6 +79,7 @@ export default [
 	},
 	{
 		id : 7,
+		title: "Central America Transport",
 		organizer : "Venetta",
 		purpose : "Networking",
 		restaurant : "Running Goose",
@@ -85,6 +92,7 @@ export default [
 	},
 	{
 		id : 8,
+		title: "Bring your Business Cards",
 		organizer : "Reynalda",
 		purpose : "Networking",
 		restaurant : "JOEY DTLA",

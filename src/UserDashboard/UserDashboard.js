@@ -12,21 +12,15 @@ export default class UserDashboard extends React.Component{
         }); 
 
         let events;
-        let eventName;
 
         if(user.events.length === 0){
-            events = <li>No Events Found</li>;
+            events = <tr><td>No Events Found</td></tr>;
         }else{
             events = user.events.map((eventId, i) => {
                 const userEvent = EVENTS.find((event, i) => {
                     return event.id === eventId;
                 });
-                if(userEvent.purpose === 'Social' || userEvent.purpose === 'Networking'){
-                    eventName = `${userEvent.purpose} event at ${userEvent.restaurant}`;
-                }else{
-                    eventName = `${userEvent.purpose} at ${userEvent.restaurant}`;
-                }
-                events = <li key={i}>{eventName} on {userEvent.date}</li>; 
+                events = <tr><td>{userEvent.title}</td><td>{userEvent.organizer}</td><td>{userEvent.purpose}</td><td>{userEvent.restaurant}</td><td>{userEvent.date}</td></tr>; 
                 return events;
             });
         }
@@ -34,10 +28,19 @@ export default class UserDashboard extends React.Component{
             <div className="user-dashboard">
                 <UserDetails user={user} events={EVENTS} />
                 <section className="user-upcoming-events">
-                    <h2>Upcoming Events:</h2>
-                    <ul>
-                        {events}
-                    </ul>
+                    <table className="user-upcoming-events-table">
+                    <thead><tr><th>Upcoming Events:</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <th>Title</th>
+                                <th>Organizer</th>
+                                <th>Purpose</th>
+                                <th>Restaurant</th>
+                                <th>Date</th>
+                            </tr>
+                            {events}
+                        </tbody>
+                    </table>
                 </section>
             </div>
         );

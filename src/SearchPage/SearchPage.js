@@ -1,7 +1,9 @@
 import React from 'react';
 import EVENTS from '../events';
+import { Link } from 'react-router-dom';
 //import EventsList from '../EventsList/EventsList';
 import './SearchPage.css';
+import { EventEmitter } from 'events';
 
 
 export default class SearchPage extends React.Component{
@@ -36,8 +38,14 @@ export default class SearchPage extends React.Component{
         }
 
         events = events.map((event, i) => {
-        return <li key={i}>{event.purpose} event at {event.restaurant} on {event.date}</li>
-        });
+            const eventPageId = event.id;
+            const eventPageURL = `/event/${eventPageId}`;
+        return(
+            <tr>
+            <td>{event.title}</td><td>{event.organizer}</td><td>{event.purpose}</td><td>{event.restaurant}</td><td>{event.date}</td>
+            </tr>
+        ); 
+    });
 
         return events;
     }
@@ -84,10 +92,19 @@ export default class SearchPage extends React.Component{
                     </div>    
                 </form>
                 <section className="events-list">
-                <h2>Event List:</h2>
-                <ul>
-                    {this.getEvents()}
-                </ul>
+                <table className="events-list-table">
+                    <thead><tr><th>Event List:</th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <th>Title</th>
+                            <th>Organizer</th>
+                            <th>Purpose</th>
+                            <th>Restaurant</th>
+                            <th>Date</th>
+                        </tr>
+                        {this.getEvents()}
+                    </tbody>
+                </table>
             </section>
             </div>
         );

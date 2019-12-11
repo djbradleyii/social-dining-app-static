@@ -145,13 +145,13 @@ font-size: 18px;
 .user-upcoming-events-table thead{
     display: inline-block;
     width: 100%;
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 8px;
 }
 
 
 .user-upcoming-events-table tbody th{
-    font-size: 20px;
+    font-size: 16px;
     padding: 5px;
     width: 100%;
 }
@@ -163,7 +163,7 @@ font-size: 18px;
 
 .user-upcoming-events-table tbody tr td{
     flex: 1;
-    font-size: 18px;
+    font-size: 14px;
     padding-left: 2px;
     text-align: center;
 }

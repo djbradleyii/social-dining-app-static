@@ -47,54 +47,108 @@
     font-size: 16px;
 }
 
+/* EVENTS LIST TABLE */
 .events-list-table{
+    display: block;
     width: 100%;
-    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.events-list-table tbody{
+    display: block;
+    width:100%;
 }
 
 .events-list-table tbody th{
-    font-size: 18px;
-    text-align: left;
+    font-size: 12px;
+    padding: 5px;
+    width: 100%;
 }
 .events-list-table tbody td{
-    font-size: 18px;
+    font-size: 12px;
+}
+
+.events-list-table tbody tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.events-list-table tbody tr td{
+    flex: 1;
+    font-size: 10px;
+    padding-left: 2px;
+    text-align: center;
 }
 
 .events-list-table thead th{
-    font-size: 35px;
+    font-size: 18px;
 }
 
 .events-list-table thead{
     display: inline-block;
-    margin-bottom: 10px;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 8px;
 }
 
 
 @media only screen and (min-width: 500px) {
     #search-form{
         width: 700px;
-        padding: 25px;
-        font-size: 20px;
+        padding: 20px;
+        font-size: 18px;
     }
     #search-form input{
         height: 30px;
     }
     #search-form input[type="radio"]{
-        width:20px;
+        width:14px;
     }
     #search-form button{
-        font-size: 20px;
-        width: 200px;
-        height: 35px;
+        font-size: 16px;
+        width: 160px;
+        height: 25px;
     }
     .events-list{
-        width: 800px;
-        font-size: 16px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .events-list h2{
         font-size: 30px;
         margin-bottom: 10px;
+        text-align: center;
+        display: block;
+        width:100%;
     }
-  }
+/* EVENTS LIST TABLE */
+
+.events-list-table tbody th{
+    font-size: 20px;
+}
+.events-list-table tbody td{
+    font-size: 20px;
+}
+
+.events-list-table tbody tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.events-list-table tbody tr td{
+    flex: 1;
+    font-size: 16px;
+    padding-left: 2px;
+    text-align: center;
+}
+
+.events-list-table thead th{
+    font-size: 28px;
+}
+
+}

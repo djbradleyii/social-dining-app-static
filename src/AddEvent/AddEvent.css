@@ -22,10 +22,10 @@ textarea{
     #add-event-form{
         width: 500px;
         padding: 25px;
-        font-size: 30px;
+        font-size: 22px;
     }
     #add-event-form input{
-        height: 35px;
+        height: 26px;
     }
     #add-event-form button{
         font-size: 20px;
